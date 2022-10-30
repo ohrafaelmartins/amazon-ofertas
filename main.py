@@ -1,8 +1,5 @@
-from cgi import test
-import secrets
 import requests
 import json
-# import pandas as pd
 import time
 import os
 from datetime import datetime
@@ -57,9 +54,6 @@ def imprimir():
 
     tt.append("#LulaPresidente2022, #Eleicao2022")
     # api.create_tweet(text='\n'.join(tt))
-
-    time.sleep(1)
     os.system('clear')
-    os.system('cat resultado-hora-a-hora.csv')
 
 imprimir()

@@ -7,7 +7,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "*/7 * * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install dependencies
+      - name: create tweet
         env:
           CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
           CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
