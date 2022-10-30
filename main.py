@@ -50,6 +50,7 @@ def imprimir():
 
     time.sleep(10)
     os.system('clear')
+    os.system('cat resultado-hora-a-hora.csv')
     print('\n')
     # imprimir()
 
