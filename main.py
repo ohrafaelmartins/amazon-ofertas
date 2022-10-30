@@ -53,7 +53,7 @@ def imprimir():
                 writer.writerow(fields)
 
     tt.append("#LulaPresidente2022, #Eleicao2022")
-    # api.create_tweet(text='\n'.join(tt))
+    api.create_tweet(text='\n'.join(tt))
     os.system('clear')
 
 imprimir()
