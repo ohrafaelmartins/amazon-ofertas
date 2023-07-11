@@ -28,6 +28,6 @@ if __name__ == "__main__":
         tweet_text.append("Segundo Teste")
         tweet_text.append("Terceiro Teste com hastag")
 
-        api.create_tweet(text='\n'.join(tweet_text))
+        #  api.create_tweet(text='\n'.join(tweet_text))
     except Exception as e:
         logging.error("Exception occurred", exc_info=True)
