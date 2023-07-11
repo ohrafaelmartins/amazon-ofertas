@@ -32,6 +32,6 @@ def tweet_text():
     return tt
 
 if __name__ == "__main__":
-    api = authenticate
+    api = authenticate()
     api.create_tweet(text='\n'.join(tweet_text))
     
