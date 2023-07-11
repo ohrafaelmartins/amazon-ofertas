@@ -2,7 +2,7 @@ name: Auto Post to Twitter
 
 on:
   schedule:
-    - cron: "*/2 * * * *"
+    - cron: "* * * * *"
 
 jobs:
   auto_post:
