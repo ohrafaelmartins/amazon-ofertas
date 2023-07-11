@@ -21,4 +21,4 @@ jobs:
         run: pip install tweepy
 
       - name: Run Python script
-        run: python3 script.py
+        run: python3 amazon.py
